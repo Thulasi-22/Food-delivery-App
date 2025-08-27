@@ -58,15 +58,21 @@ h1{
     background-color: beige;
     color:#6e6a6a;
 }
-#cancel{
+.cancel-btn{
     display:none;
     right:0;
     bottom:9px;
     margin-right:5px;
     background-color: red;
     color: white;
+    cursor:pointer;
+    bottom: 9px;
+    border:none;
+    position: absolute;
+    border-radius: 5px;
+    padding:5px 10px 5px 10px;
 }
-#cancel:active{
+.cancel-btn:active{
     background-color:#e34545;
 }
 
